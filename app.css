@@ -4,3 +4,74 @@
     font-family: 'Ubuntu Mono';
 
 }
+.nav-header
+{
+    cursor: default;
+}
+
+:root{
+    --maincolor: #fdba31;
+    --secondarycolor:#282828;
+    --actioncolor:#ffffff;
+}
+body{
+    background-color:var(--maincolor)
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.nav-list
+{
+    list-style-type: none;
+}
+
+.nav-link
+{
+
+    text-decoration: none;
+    color: var(--secondarycolor);
+    font-size: 1.2rem;
+}
+.nav-list
+{
+    display: inline;
+    padding: 0rem 1.8rem;
+}
+
+
+.brand
+{
+    font-size: 1.8rem;
+}
+
+.btn-action
+{
+    background-color: var(--secondarycolor);
+    color: var(--actioncolor);
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 10rem;
+    text-align: center;
+    align-items: center;
+}
+.content
+{
+    font-size: 3rem;
+    padding: 2rem;
+
+}
