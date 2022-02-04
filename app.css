@@ -37,6 +37,12 @@ body{
     color: var(--secondarycolor);
     font-size: 1.2rem;
 }
+.nav-link:hover
+{
+    transition: 0.5s;
+    font-size: 2rem;
+}
+
 .nav-list
 {
     display: inline;

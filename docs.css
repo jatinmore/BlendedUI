@@ -1,0 +1,63 @@
+@import url(/app.css);
+
+html body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #ffff;
+}
+.sidebar
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 250px;
+    border-right: 1px solid black;
+
+
+}
+
+.aside-header
+{
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.list{
+    list-style-type: none;
+    
+}
+
+.aside-item .aside-link 
+{
+    list-style-type: none;
+    text-decoration: none;
+
+    
+
+}
+
+.aside-item
+{
+    margin-bottom: 1em;
+
+
+}
+.aside-link
+{
+    color: var(--secondarycolor); 
+    padding: 0.4rem;
+    font-size: 1.2rem;    
+}
+
+.aside-link:hover
+{
+    
+    border-radius: 0.2rem;
+    background: var(--secondarycolor);
+    color: var(--actioncolor);
+    transition: 0.5s;
+}
