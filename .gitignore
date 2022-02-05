@@ -1,2 +1,5 @@
 components/Avatar-Badges/avatar.css
 components/Avatar-Badges/avatar.html
+components/Avatar-Badges/badge.html
+styles/badge.css
+styles/avatar.css
