@@ -18,6 +18,10 @@ html body
 
 
 }
+.aside{
+    padding: 1.5rem;
+  
+}
 
 .aside-header
 {
@@ -28,7 +32,7 @@ html body
 
 .list{
     list-style-type: none;
-    
+    margin: 1rem;
 }
 
 .aside-item .aside-link 

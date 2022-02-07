@@ -1,0 +1,54 @@
+@import url(/styles/app.css);
+@import url(/styles/avatar.css);
+@import url(/styles/docs.css);
+
+.badge
+{
+    margin-top: 1rem ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.btn-badge{
+    padding: 0.8rem;
+    border: none;
+    outline: none;
+    margin: 0.2rem;
+    border-radius:50px;
+    cursor: pointer;
+}
+
+.count
+{
+    position: relative;
+    top:-0.5rem;
+}
+.fa-dot-circle
+{
+    color: green;
+}
+.avatar-badge
+{
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    
+}
+
+.icon-active
+{
+    position: relative;
+    bottom: -2rem;
+    right: 3rem;
+   
+}
+
+.badge-info
+{
+    display: flex;
+    padding: 0.8rem;
+   
+    align-items: center;
+    justify-content: center;
+}
