@@ -1,0 +1,48 @@
+@import url('/styles/app.css');
+@import url('/styles/docs.css');
+@import url('/styles/avatar.css');
+@import url('/styles/badge.css');
+@import url('/styles/button.css');
+
+.alert
+{
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--secondarycolor);
+    border: 1px solid black;
+}
+
+.primary
+{
+    background: var(--alert-primary);
+}
+.secondary
+{
+    background: var(--alert-secondary);
+}
+.success
+{
+    background: var(--alert-success);
+}
+.warning
+{
+    background: var(--alert-warning);
+}
+.dark
+{
+    color: white;
+    background: var(--alert-dark);
+}
+.dismiss
+{
+    background: var(--alert-primary);
+}
+.btn-close
+{
+    position: relative;
+    outline: none;
+    border: none;
+    float: right;
+    cursor: pointer;
+
+}

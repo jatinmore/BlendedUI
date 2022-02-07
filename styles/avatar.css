@@ -1,7 +1,11 @@
 @import url(/styles/app.css);
 @import url(/styles/docs.css);
 
-
+.container
+{
+  
+    width: 100%;
+}
 .avatar-img-lg
 {
     padding: 1rem;
@@ -38,6 +42,7 @@
 .description
 {
     font-size: larger;
+
 }
 
 
