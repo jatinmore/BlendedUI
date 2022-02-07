@@ -35,6 +35,7 @@
 }
 .dismiss
 {
+    display: block;
     background: var(--alert-primary);
 }
 .btn-close
@@ -45,4 +46,14 @@
     float: right;
     cursor: pointer;
 
+}
+.reset
+{
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background: var(--secondarycolor);
+    color: var(--actioncolor);
+    width: 5rem;
+    cursor: pointer;
 }
