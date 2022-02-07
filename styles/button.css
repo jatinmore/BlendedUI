@@ -3,3 +3,46 @@
 @import url('/styles/avatar.css');
 @import url('/styles/badge.css');
 @import url('/styles/alert.css');
+
+.btn
+{
+    padding: 0.5rem;
+    margin: 2rem 1.5rem;
+    width: 6rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+
+.btn:hover
+{
+    filter: brightness(0.7);
+    transition: all 1.2s;
+
+}
+.sm
+{
+    width: 4rem;
+}
+
+.md
+{
+    width: 6.5rem;
+    height: 2.5rem;
+}
+
+.lg
+{
+    width: 8;
+    height: 3rem;
+}
+.fab
+{
+    font-size: 2rem;
+}
+.fa-facebook
+{
+    color: #4267B2;
+}
