@@ -5,6 +5,7 @@ var reset = document.querySelector('.reset');
 
 btnClose.addEventListener('click',()=>{
     alertBlock.style.display='none';
+    reset.style.display='block'
 })
 
 reset.addEventListener('click',()=>{
