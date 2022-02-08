@@ -12,7 +12,7 @@
 <body>
     <div class="nav">
         <div class="nav-header">
-            <span class="brand">BlendedUI</span>
+            <a class="brand" href="/index.html">BlendedUI</a>
         </div>
         <div class="nav-item">
             <ul>
@@ -39,7 +39,7 @@
 
 
                     <li class="aside-item">
-                        <a class="aside-link" href="/components/Avatar-Badges/badge.html">Badge</a>
+                        <a class="aside-link active" href="/components/Avatar-Badges/badge.html">Badge</a>
                     </li>
 
 
@@ -73,62 +73,54 @@
         </div>
 
         <div class="content-main">
-            <div class="badge">
-                <span class="description">
-                    <h1>Badges</h1>
-                    <br>
-                    Badges are numerical indicators of how many items are associated with a link,
-                    Badges add extra information like count or label to any content.
+            <span class="description">
+                <h1>Badges</h1>
+                <p class="sub-heading font-size-10"> Badges are numerical indicators of how many items are associated
+                    with a link,
+                    Badges add extra information like count or label to any content.</p>
+            </span>
+            <div class="description">
+                <span class="description font-size-10">
+                    <span class="underline">Badge on Icons</span>
                 </span>
-                <br>
-                <br>
-                <div>
-                    <span class="description">
-                        <h3>Badge on Icons</h3>
-                    </span>
-                </div>
-                <div class="badge-info">
+            </div>
+            <div class="container">
+                <div class="items">
 
                     <button class="btn-badge">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span class="count">5</span>
-                    </button>
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="count">5</span>
+                </button>
 
                     <button class="btn-badge">
-                        <i class="fas fa-user"></i>
-                        <span class="count">5</span>
-                    </button>
+                    <i class="fas fa-user"></i>
+                    <span class="count">5</span>
+                </button>
                 </div>
-                <div class="code">
-                    <iframe class="snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn-badge%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E5%253C%252Fspan%253E%250A%2520%253C%252Fbutton%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn-badge%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <div>
-                    <span class="description"><h3>Badges on Avatars</h3></span>
-                    <div class="container">
-                          <div class="badge-info">
-                                <img class="avatar-img-sm" src="/Assets/badges-avatar.svg" alt="">
-                                <span class="icon-active"><i class="fas fa-dot-circle"></i> </span>
-                          
+            </div>
 
-                                
-                                <img class="avatar-img-md" src="/Assets/badges-avatar.svg" alt="">
-                                <span class="icon-active"><i class="fas fa-dot-circle"></i> </span>
-
-                                
-                                <img class="avatar-img-lg" src="/Assets/badges-avatar.svg" alt="">
-                                <span class="icon-active"><i class="fas fa-dot-circle"></i> </span>
-                            </div>
+            <div class="code">
+                <iframe class="snippet" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn-badge%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E5%253C%252Fspan%253E%250A%2520%253C%252Fbutton%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn-badge%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="description">
+                <span class="description underline font-size-10">Badges on Avatars</span>
+                <div class="container">
+                    <div class="items">
+                        <img class="avatar-img-sm" src="/Assets/badges-avatar.svg" alt="">
+                        <span class="icon-active"><i class="fas fa-dot-circle"></i> </span>
+                        <img class="avatar-img-md" src="/Assets/badges-avatar.svg" alt="">
+                        <span class="icon-active"><i class="fas fa-dot-circle"></i> </span>
+                        <img class="avatar-img-lg" src="/Assets/badges-avatar.svg" alt="">
+                        <span class="icon-active"><i class="fas fa-dot-circle"></i> </span>
                     </div>
                 </div>
-                <div class="code">
-                    <iframe class="snippet"
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522badge-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img-sm%2522%2520src%253D%2522%252FAssets%252Fbadges-avatar.svg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-active%2522%253E%253Ci%2520class%253D%2522fas%2520fa-dot-circle%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2509%253Cimg%2520class%253D%2522avatar-img-md%2522%2520src%253D%2522%252FAssets%252Fbadges-avatar.svg%2522%2520alt%253D%2522%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522icon-active%2522%253E%253Ci%2520class%253D%2522fas%2520fa-dot-circle%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img-lg%2522%2520src%253D%2522%252FAssets%252Fbadges-avatar.svg%2522%2520alt%253D%2522%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522icon-active%2522%253E%253Ci%2520class%253D%2522fas%2520fa-dot-circle%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2509%2509%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
+            </div>
+            <div class="code">
+                <iframe class="snippet" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522badge-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img-sm%2522%2520src%253D%2522%252FAssets%252Fbadges-avatar.svg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-active%2522%253E%253Ci%2520class%253D%2522fas%2520fa-dot-circle%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2509%253Cimg%2520class%253D%2522avatar-img-md%2522%2520src%253D%2522%252FAssets%252Fbadges-avatar.svg%2522%2520alt%253D%2522%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522icon-active%2522%253E%253Ci%2520class%253D%2522fas%2520fa-dot-circle%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img-lg%2522%2520src%253D%2522%252FAssets%252Fbadges-avatar.svg%2522%2520alt%253D%2522%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522icon-active%2522%253E%253Ci%2520class%253D%2522fas%2520fa-dot-circle%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2509%2509%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
         </div>
 

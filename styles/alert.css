@@ -1,55 +1,39 @@
-@import url('/styles/app.css');
-@import url('/styles/docs.css');
-@import url('/styles/avatar.css');
-@import url('/styles/badge.css');
-@import url('/styles/button.css');
-
-.alert
-{
-    margin: 1rem;
-    padding: 1rem;
-    color: var(--secondarycolor);
-    border: 1px solid black;
-}
-
-.primary
-{
+@import url('/styles/main.css');
+.primary {
     background: var(--alert-primary);
 }
-.secondary
-{
+
+.secondary {
     background: var(--alert-secondary);
 }
-.success
-{
+
+.success {
     background: var(--alert-success);
 }
-.warning
-{
+
+.warning {
     background: var(--alert-warning);
- 
 }
-.dark
-{
+
+.dark {
     color: white;
     background: var(--alert-dark);
 }
-.dismiss
-{
+
+.dismiss {
     display: block;
     background: var(--alert-primary);
 }
-.btn-close
-{
+
+.btn-close {
     position: relative;
     outline: none;
     border: none;
     float: right;
     cursor: pointer;
-
 }
-.reset
-{
+
+.reset {
     display: none;
     padding: 1rem;
     outline: none;
@@ -58,4 +42,67 @@
     color: var(--actioncolor);
     width: 5rem;
     cursor: pointer;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.reset {
+    -webkit-animation: appear 2s ease 0s 1 normal;
+    -moz-animation: appear 2s ease 0s 1 normal;
+    -ms-animation: appear 2s ease 0s 1 normal;
+    animation: appear 2s ease 0s 1 normal;
+}
+
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    60% {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.btn-close {
+    -webkit-animation: appear 2s ease-out 0s 1 normal;
+    -moz-animation: appear 2s ease-out 0s 1 normal;
+    -ms-animation: appear 2s ease-out 0s 1 normal;
+    animation: appear 2s ease-out 0s 1 normal;
+}
+
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    60% {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
 }

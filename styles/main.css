@@ -1,0 +1,68 @@
+@import url('/styles/app.css');
+@import url('/styles/docs.css');
+@import url('/styles/avatar.css');
+@import url('/styles/badge.css');
+@import url('/styles/button.css');
+@import url('/styles/alert.css');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* container */
+
+.container {
+    width: 100%;
+}
+
+:root {
+    --maincolor: #fdba31;
+    --secondarycolor: #282828;
+    --actioncolor: #ffffff;
+    /* alert color */
+    --alert-primary: #eef2fa;
+    --alert-secondary: #8acbde;
+    --alert-success: #5aca75;
+    --alert-warning: #CC3300;
+    --alert-dark: #3a3b3c;
+}
+
+
+/* main docs content */
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+/* for active navigation */
+
+.active {
+    background: var(--secondarycolor);
+    color: var(--actioncolor);
+}
+
+
+/* buttons */
+
+.btn {
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 2rem 1.5rem;
+    width: 6rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+
+/* alert */
+
+.alert {
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--secondarycolor);
+    border: 1px solid black;
+}
