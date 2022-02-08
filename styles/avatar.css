@@ -3,7 +3,6 @@
 
 .container
 {
-  
     width: 100%;
 }
 .avatar-img-lg
@@ -44,6 +43,7 @@
     font-size: larger;
     margin-bottom: 1rem;
 
+    width: 100%;
 }
 
 
@@ -80,8 +80,9 @@
 .code
 {
     position: relative;
+    /* border: 1px solid black; */
     /* 16:9 */
-      height:50%;
+    height: 20rem;
     margin: 1rem;
     width: 100%;
     overflow: hidden;

@@ -93,3 +93,12 @@ body{
     padding: 2rem;
 
 }
+
+.items
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+

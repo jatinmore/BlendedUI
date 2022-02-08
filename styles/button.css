@@ -16,12 +16,26 @@
     cursor: pointer;
 }
 
+.float{
+    border-radius: 500px;
+    width: fit-content;
+    padding: 1.5rem;
+    outline: none;
+    border: none;
+    background: var(--secondarycolor);
+    color: white;
+}
+
+.btn-action:hover
+{
+    filter: brightness(0.9);
+}
+
 
 .btn:hover
 {
     filter: brightness(0.7);
     transition: all 1.2s;
-
 }
 .sm
 {
@@ -47,3 +61,11 @@
 {
     color: #4267B2;
 }
+
+.btn-float
+{
+    /* margin: 1rem 15rem; */
+    align-items: center;
+    width: fit-content;
+}
+
