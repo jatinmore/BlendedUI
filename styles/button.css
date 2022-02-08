@@ -1,0 +1,57 @@
+@import url('/styles/main.css');
+.btn {
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 2rem 1.5rem;
+    width: 6rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.float {
+    border-radius: 500px;
+    width: fit-content;
+    padding: 1.5rem;
+    outline: none;
+    border: none;
+    background: var(--secondarycolor);
+    color: white;
+}
+
+.btn-action:hover {
+    filter: brightness(0.9);
+}
+
+.btn:hover {
+    filter: brightness(0.7);
+    transition: all 1.2s;
+}
+
+.sm {
+    width: 4rem;
+}
+
+.md {
+    width: 6.5rem;
+    height: 2.5rem;
+}
+
+.lg {
+    width: 8;
+    height: 3rem;
+}
+
+.fab {
+    font-size: 2rem;
+}
+
+.fa-facebook {
+    color: #4267B2;
+}
+
+.btn-float {
+    align-items: center;
+    width: fit-content;
+}

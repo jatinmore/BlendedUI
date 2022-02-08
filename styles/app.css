@@ -1,65 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
-*{  
+@import url('/styles/main.css');
+* {
     box-sizing: border-box;
     font-family: 'Ubuntu Mono';
     margin: 0;
     padding: 0;
-
 }
-.nav-header
-{
+
+.nav-header {
     cursor: default;
 }
 
-:root{
-    --maincolor: #fdba31;
-    --secondarycolor:#282828;
-    --actioncolor:#ffffff;
-}
-body{
-    background-color:var(--maincolor)
+.font-size-10 {
+    font-size: 20px;
 }
 
-.nav
-{
+.sub-heading {
+    color: #3a3b3c;
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.body {
+    background-color: var(--maincolor);
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
 }
-.nav-list
-{
+
+.nav-list {
     list-style-type: none;
 }
 
-.nav-link
-{
-
+.nav-link {
     text-decoration: none;
     color: var(--secondarycolor);
     font-size: 1.2rem;
 }
-.nav-link:hover
-{
+
+.nav-link:hover {
     transition: 0.5s;
     font-size: 1.5rem;
 }
 
-.nav-list
-{
+.nav-list {
     display: inline;
     padding: 0rem 1.8rem;
 }
 
-
-.brand
-{
+.brand {
     font-size: 1.8rem;
+    color: var(--secondarycolor);
 }
 
-.btn-action
-{
+.nav-header a {
+    text-decoration: none;
+}
+
+.btn-action {
     background-color: var(--secondarycolor);
     color: var(--actioncolor);
     padding: 1.5rem;
@@ -70,17 +75,19 @@ body{
     cursor: pointer;
 }
 
-.main
-{
+.btn-action a {
+    text-decoration: none;
+}
+
+.main {
     display: flex;
     flex-direction: column;
     margin: 8rem 10rem;
     text-align: center;
     align-items: center;
 }
-.content
-{
+
+.content {
     font-size: 3rem;
     padding: 2rem;
-
 }
