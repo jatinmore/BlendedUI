@@ -1,0 +1,28 @@
+@import url('/styles/main.css');
+.card {
+    display: flex;
+    flex-direction: column;
+    /* background: purple; */
+    padding: 1rem;
+    width: auto;
+    max-width: 20rem;
+    height: auto;
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+    box-shadow: 8px -4px 35px -2px rgba(0, 0, 0, 0.77);
+}
+
+.card-img {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 15rem;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.card-buttons {
+    float: right;
+}
