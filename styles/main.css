@@ -36,6 +36,26 @@
 }
 
 
+/* fontsize */
+
+.font-size-10 {
+    font-size: 20px;
+}
+
+
+/* docs content/ sub heading */
+
+.underline {
+    text-decoration: underline;
+}
+
+.sub-heading {
+    color: #3a3b3c;
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+
+
 /* for active navigation */
 
 .active {
