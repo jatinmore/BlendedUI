@@ -6,6 +6,18 @@
     padding: 0;
 }
 
+:root {
+    --maincolor: #fdba31;
+    --secondarycolor: #282828;
+    --actioncolor: #ffffff;
+    /* alert color */
+    --alert-primary: #eef2fa;
+    --alert-secondary: #8acbde;
+    --alert-success: #5aca75;
+    --alert-warning: #CC3300;
+    --alert-dark: #3a3b3c;
+}
+
 .nav-header {
     cursor: default;
 }
