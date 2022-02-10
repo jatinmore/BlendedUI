@@ -8,9 +8,30 @@
     max-width: 20rem;
     height: auto;
     border-radius: 0.2rem;
-    outline: none;
-    border: none;
-    box-shadow: 8px -4px 35px -2px rgba(0, 0, 0, 0.77);
+    border: 1px solid black;
+    /* box-shadow: 8px -4px 35px -2px rgba(0, 0, 0, 0.77); */
+}
+
+.horizontal-img {
+    /* height: 25;
+    width: 12vw; */
+    margin: auto;
+    height: 12rem;
+    padding: 0.5rem;
+}
+
+.horizontal-card {
+    border: 1px solid black;
+    width: 25rem;
+    height: 12rem;
+}
+
+.body-h {
+    padding: 1rem;
+    position: relative;
+    bottom: 12rem;
+    left: 8rem;
+    float: right;
 }
 
 .card-img {
