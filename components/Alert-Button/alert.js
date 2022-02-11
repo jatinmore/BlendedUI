@@ -8,6 +8,8 @@ btnClose.addEventListener('click', () => {
     reset.style.display = 'block'
 })
 
+
+
 reset.addEventListener('click', () => {
     alertBlock.style.display = 'block';
     reset.style.display = 'none';
