@@ -1,15 +1,4 @@
 @import url('/styles/main.css');
-.btn {
-    text-decoration: none;
-    padding: 0.5rem;
-    margin: 2rem 1.5rem;
-    width: 6rem;
-    outline: none;
-    border: none;
-    border-radius: 0.2rem;
-    cursor: pointer;
-}
-
 .float {
     border-radius: 500px;
     width: fit-content;
