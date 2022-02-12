@@ -1,0 +1,25 @@
+@import url('/styles/main.css');
+.lists {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 1rem;
+}
+
+.list-item {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.list-item:hover {
+    background-color: beige;
+    cursor: pointer;
+}
