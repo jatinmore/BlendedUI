@@ -1,0 +1,15 @@
+@import url('/styles/main.css');
+.img-responsive {
+    width: 100%;
+    /* max-width: 400px; */
+    height: auto;
+}
+
+.img {
+    height: 12rem;
+    width: 12rem;
+}
+
+.rounded {
+    border-radius: 50%;
+}

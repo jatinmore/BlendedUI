@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" tyoe="text/css" href="/styles/avatar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-
+    <link rel="stylesheet" href="/styles/image.css">
     <title>BlendedUI</title>
 </head>
+
 
 <body>
     <div class="nav">
@@ -36,7 +35,7 @@
                 <span class="aside-header">Components</span>
                 <ul class="list">
                     <li class="aside-item">
-                        <a class="aside-link active" href="/components/Avatar-Badges/avatar.html">Avatar</a>
+                        <a class="aside-link" href="/components/Avatar-Badges/avatar.html">Avatar</a>
                     </li>
 
 
@@ -61,7 +60,7 @@
 
 
                     <li class="aside-item">
-                        <a class="aside-link" href="/components/Image-Input/image.html">Image</a>
+                        <a class="aside-link active" href="/components/Image-Input/image.html">Image</a>
                     </li>
 
 
@@ -77,30 +76,39 @@
         <div class="content-main">
 
             <span class="description">
-                <h1>Avatar</h1>
-                <p class="sub-heading font-size-10">Avatars are used to display profile pic,icons or custome images
-                    It can be used to potray people or objects</p>
-            </span>
-
+                <h1>Images</h1>
+                 <p class="sub-heading font-size-10">A responsive image adjust to different screen sizes and fit accordingly.</p>            </span>
 
             <div class="container">
                 <div class="items">
-                    <img class="avatar-img-sm" src="https://i.pravatar.cc/150?img=64">
-                    <img class="avatar-img-md" src="https://i.pravatar.cc/150?img=4" alt="">
-                    <img class="avatar-img-lg" src="https://i.pravatar.cc/150?img=70" alt="">
+                    <img class="img-responsive" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="nature">
                 </div>
 
             </div>
-
             <div class="code">
-                <iframe class="snippet" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar-img-sm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D64%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-img-med%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D4%2522%2520alt%253D%2522%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-img-lg%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D70%2522%2520alt%253D%2522%2522%253E"
-                    sandbox="allow-scripts allow-same-origin">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522..%2522%2520alt%253D%2522image%2522%253E%250A">
                 </iframe>
             </div>
 
+            <div class="container">
+                <div class="description font-size-10">
+                    <span class="underline">Round Image
+                    </span>
+                </div>
+
+                <div class="items">
+                    <img class="img rounded" src="/Assets/sample.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="code">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img%2520rounded%2522%2520src%253D%2522..%2522%2520alt%253D%2522%2522%253E%250A"></iframe>
+            </div>
+
+
+
         </div>
     </div>
-
 </body>
 
 </html>

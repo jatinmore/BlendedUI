@@ -1,0 +1,27 @@
+@import url('/styles/main.css');
+
+/* .fields {
+    display: flex;
+    flex-direction: column;
+} */
+
+.input-field {
+    margin: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    font-family: monospace;
+}
+
+.outline {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.error {
+    border: 2px solid var(--alert-warning);
+}
+
+.correct {
+    border: 2px solid var(--alert-success);
+}
