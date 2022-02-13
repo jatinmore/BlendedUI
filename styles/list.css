@@ -18,8 +18,3 @@
     padding: 1rem;
     border-bottom: 1px solid black;
 }
-
-.list-item:hover {
-    background-color: beige;
-    cursor: pointer;
-}
