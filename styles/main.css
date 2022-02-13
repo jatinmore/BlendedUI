@@ -23,6 +23,8 @@
     --alert-success: #5aca75;
     --alert-warning: #CC3300;
     --alert-dark: #3a3b3c;
+    /* text utilities*/
+    --grey-text: #808080;
 }
 
 
