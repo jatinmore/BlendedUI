@@ -18,3 +18,13 @@
     padding: 1rem;
     border-bottom: 1px solid black;
 }
+
+.stack-list {
+    border: 1px solid black;
+}
+
+.stack-item {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+}
