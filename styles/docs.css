@@ -48,5 +48,5 @@ html body {
     border-radius: 0.2rem;
     background: var(--secondarycolor);
     color: var(--actioncolor);
-    transition: 0.5s;
+    transition: 0.3s;
 }

@@ -46,10 +46,7 @@
 }
 
 .reset {
-    -webkit-animation: appear 2s ease 0s 1 normal;
-    -moz-animation: appear 2s ease 0s 1 normal;
-    -ms-animation: appear 2s ease 0s 1 normal;
-    animation: appear 2s ease 0s 1 normal;
+    animation: appear 1s ease 0s 1 normal;
 }
 
 @-webkit-keyframes appear {
@@ -77,9 +74,6 @@
 }
 
 .btn-close {
-    -webkit-animation: appear 2s ease-out 0s 1 normal;
-    -moz-animation: appear 2s ease-out 0s 1 normal;
-    -ms-animation: appear 2s ease-out 0s 1 normal;
     animation: appear 2s ease-out 0s 1 normal;
 }
 
@@ -92,17 +86,6 @@
     60% {
         opacity: 1;
         -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-}
-
-@keyframes appear {
-    0% {
-        opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
-    }
-    60% {
-        opacity: 1;
         transform: scale3d(1, 1, 1);
     }
 }
