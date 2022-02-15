@@ -1,0 +1,40 @@
+@import url('/styles/main.css');
+.headings {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: flex-start;
+    margin: 3rem;
+}
+
+.text-align {
+    margin: 1rem;
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.grey-text {
+    color: var(--grey-text);
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}
+
+.text-lg {
+    font-size: 1.4rem;
+}
