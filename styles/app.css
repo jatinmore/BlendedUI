@@ -21,6 +21,11 @@
     padding: 1rem 2rem;
 }
 
+
+/* .nav-item {
+    float: right;
+} */
+
 .nav-list {
     list-style-type: none;
 }
@@ -32,8 +37,15 @@
 }
 
 .nav-link:hover {
-    transition: 0.5s;
+    /* transition: 0.8s; */
     font-size: 1.5rem;
+    transition: font-size 0.5s ease 0s;
+}
+
+#nav-icons:hover {
+    /* transition: 0.8s; */
+    font-size: 1.5rem;
+    transition: font-size 0.5s ease 0s;
 }
 
 .nav-list {
@@ -53,8 +65,9 @@
 .btn-action {
     background-color: var(--secondarycolor);
     color: var(--actioncolor);
-    padding: 1.5rem;
-    font-size: 1rem;
+    padding: 0.8rem;
+    height: fit-content;
+    /* font-size: 1rem; */
     border-radius: 50px;
     outline: none;
     border: none;
@@ -76,4 +89,8 @@
 .content {
     font-size: 3rem;
     padding: 2rem;
+}
+
+#nav-icons {
+    font-size: 1.2rem;
 }
