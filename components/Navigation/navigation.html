@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" tyoe="text/css" href="/styles/avatar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-
+    <link rel="stylesheet" type="text/css" href="/styles/nav.css">
     <title>BlendedUI</title>
 </head>
 
@@ -17,15 +15,13 @@
             <a class="brand" href="/index.html">BlendedUI</a>
         </div>
         <div class="nav-item">
-            <ul>
-                <li class="nav-list">
-                    <a href="https://github.com/jatinmore" target="_blank" class="nav-link"><i class="fab fa-github" id="nav-icons"></i></a>
-                </li>
+            <li class="nav-list">
+                <a href="https://github.com/jatinmore" target="_blank" class="nav-link"><i class="fab fa-github" id="nav-icons"></i></a>
+            </li>
 
-                <li class="nav-list">
-                    <a href="https://twitter.com/JatinMore9" target="_blank" class="nav-link"><i class="fab fa-twitter" id="nav-icons"></i></a>
-                </li>
-            </ul>
+            <li class="nav-list">
+                <a href="https://twitter.com/JatinMore9" target="_blank" class="nav-link"><i class="fab fa-twitter" id="nav-icons"></i></a>
+            </li>
         </div>
 
     </div>
@@ -35,7 +31,7 @@
                 <span class="aside-header">Components</span>
                 <ul class="list">
                     <li class="aside-item">
-                        <a class="aside-link active" href="/components/Avatar-Badges/avatar.html">Avatar</a>
+                        <a class="aside-link" href="/components/Avatar-Badges/avatar.html">Avatar</a>
                     </li>
 
 
@@ -67,7 +63,6 @@
                     <li class="aside-item">
                         <a class="aside-link" href="/components/Image-Input/input.html">Input</a>
                     </li>
-
                     <li class="aside-item">
                         <a class="aside-link" href="/components/Typography/typography.html">Typography</a>
                     </li>
@@ -77,9 +72,8 @@
                     </li>
 
                     <li class="aside-item">
-                        <a class="aside-link" href="/components/Navigation/navigation.html">Navigation</a>
+                        <a class="aside-link active" href="/components/Navigation/navigation.html">Navigation</a>
                     </li>
-
 
                 </ul>
             </div>
@@ -88,30 +82,38 @@
         <div class="content-main">
 
             <span class="description">
-                <h1>Avatar</h1>
-                <p class="sub-heading font-size-10">Avatars are used to display profile pic,icons or custome images
-                    It can be used to potray people or objects</p>
+                <h1>Navigation</h1>
+                 <p class="sub-heading font-size-10">
+                    A navigation bar, at its very core, is a list of links used for navigating through various pages.
+                 </p>            
             </span>
 
-
             <div class="container">
-                <div class="items">
-                    <img class="avatar-img-sm" src="https://i.pravatar.cc/150?img=64">
-                    <img class="avatar-img-md" src="https://i.pravatar.cc/150?img=4" alt="">
-                    <img class="avatar-img-lg" src="https://i.pravatar.cc/150?img=70" alt="">
+                <div class="description">
+                    <span class="underline">Standard Nav</span>
+
                 </div>
-
+                <div class="navbar">
+                    <li class="nav-item">Home</li>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">Contact</li>
+                        <li class="nav-item">About</li>
+                    </ul>
+                    <li class="nav-item">Login</li>
+                </div>
             </div>
-
             <div class="code">
-                <iframe class="snippet" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar-img-sm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D64%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-img-med%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D4%2522%2520alt%253D%2522%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-img-lg%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F150%253Fimg%253D70%2522%2520alt%253D%2522%2522%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2522%253E%250A%2509%253Cli%2520class%253D%2522nav-item%2522%253EHome%253C%252Fli%253E%250A%2520%2520%253Cul%2520class%253D%2522navbar-nav%2522%253E%250A%2509%253Cli%2520class%253D%2522nav-item%2522%253EContact%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522nav-item%2522%253EAbout%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2509%253Cli%2520class%253D%2522nav-item%2522%253ELogin%253C%252Fli%253E%250A%253C%252Fdiv%253E">
+              </iframe>
             </div>
 
         </div>
-    </div>
 
+
+
+
+    </div>
+    </div>
 </body>
 
 </html>
