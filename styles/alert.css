@@ -1,25 +1,4 @@
 @import url('/styles/main.css');
-.primary {
-    background: var(--alert-primary);
-}
-
-.secondary {
-    background: var(--alert-secondary);
-}
-
-.success {
-    background: var(--alert-success);
-}
-
-.warning {
-    background: var(--alert-warning);
-}
-
-.dark {
-    color: white;
-    background: var(--alert-dark);
-}
-
 .dismiss {
     display: block;
     background: var(--alert-primary);
