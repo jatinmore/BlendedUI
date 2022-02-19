@@ -6,12 +6,15 @@ html body {
 }
 
 .sidebar {
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     max-width: 200px;
-    border-right: 1px solid black;
+    height: 70vh;
+    margin-top: 4rem;
+    /* border-right: 1px solid black; */
 }
 
 .aside {

@@ -19,6 +19,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    width: 100%;
+    box-shadow: -1px 6px 5px 0px rgba(0, 0, 0, 0.36);
+    z-index: 2;
+    /* background: var(--actioncolor); */
 }
 
 .nav-list {

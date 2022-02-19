@@ -3,16 +3,15 @@
         display: flex;
         flex-direction: column;
         padding: 0.8rem;
-        width: auto;
-        max-width: 20rem;
-        height: max-content;
+        width: 18rem;
         border-radius: 0.2rem;
-        box-shadow: 8px -4px 35px -2px rgba(0, 0, 0, 0.40);
+        border: 1px outset;
         transition: all 0.3s;
     }
     
     .card:hover {
-        box-shadow: 16px -8px 70px -4px rgba(0, 0, 0, 0.77);
+        /* box-shadow: 4px -4px 20px -2px rgba(0, 0, 0, 0.77); */
+        box-shadow: 4px 7px 19px 1px rgb(0 0 0 / 59%);
     }
     
     .horizontal-img {
@@ -39,9 +38,11 @@
         align-items: center;
         justify-content: center;
         margin: auto;
-        width: 100%;
+        /* width: 100%;
         max-width: 15rem;
-        height: auto;
+        height: 20rem; */
+        height: 16.8rem;
+        width: 11.25rem;
         padding: 0.5rem;
     }
     
@@ -63,9 +64,10 @@
         font-size: 1.2rem;
         border-radius: 50%;
         position: relative;
-        bottom: 34rem;
-        left: 1.5rem;
+        bottom: 27.3rem;
+        left: 0.8rem;
         background: transparent;
+        text-shadow: 0 1px 0 #fff;
     }
     
     .card-badge {
@@ -81,7 +83,7 @@
     
     .card-text-overlay {
         position: relative;
-        bottom: 5rem;
-        left: 5rem;
+        bottom: 4rem;
+        left: 4rem;
         color: whitesmoke;
     }

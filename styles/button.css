@@ -32,6 +32,12 @@
     height: 3rem;
 }
 
+.btn-icon {
+    /* padding: rem; */
+    height: max-content;
+    width: fit-content;
+}
+
 .fab {
     font-size: 2rem;
 }
