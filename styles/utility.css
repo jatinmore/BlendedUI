@@ -1,0 +1,56 @@
+/* utilities */
+
+.bg-color {
+    background: var(--indigo);
+}
+
+.box-shadow {
+    box-shadow: -1px 6px 5px 0px rgba(0, 0, 0, 0.36);
+}
+
+.bg-light {
+    background: var(--white);
+}
+
+.nav-fixed {
+    position: fixed;
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.primary {
+    background: var(--alert-primary);
+}
+
+.secondary {
+    background: var(--alert-secondary);
+}
+
+.success {
+    background: var(--alert-success);
+}
+
+.warning {
+    background: var(--alert-warning);
+}
+
+.dark {
+    color: white;
+    background: var(--alert-dark);
+}
+
+.sm {
+    width: 4rem;
+}
+
+.md {
+    width: 6.5rem;
+    height: 2.5rem;
+}
+
+.lg {
+    width: 8;
+    height: 3rem;
+}

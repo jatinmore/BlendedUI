@@ -40,12 +40,6 @@
     transition: font-size 0.5s ease 0s;
 }
 
-#nav-icons:hover {
-    /* transition: 0.8s; */
-    font-size: 1.5rem;
-    transition: font-size 0.5s ease 0s;
-}
-
 .nav-list {
     display: inline-block;
     padding: 0rem 1.8rem;
@@ -87,6 +81,12 @@
 .content {
     font-size: 3rem;
     padding: 2rem;
+}
+
+#nav-icons:hover {
+    /* transition: 0.8s; */
+    font-size: 1.5rem;
+    transition: 0.5s ease 0s;
 }
 
 #nav-icons {

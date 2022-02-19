@@ -14,7 +14,7 @@
 }
 
 .fa-dot-circle {
-    color: green;
+    color: var(--green);
 }
 
 .avatar-badge {

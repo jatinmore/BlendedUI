@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     padding: 2rem;
 }
 
@@ -16,15 +16,15 @@
 
 .list-item {
     padding: 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--black);
 }
 
 .stack-list {
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
 
 .stack-item {
     display: flex;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--black);
     padding: 0.5rem;
 }

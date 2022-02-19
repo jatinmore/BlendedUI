@@ -16,7 +16,8 @@
 .outline {
     border: none;
     outline: none;
-    border-bottom: 2px solid black;
+    background: transparent;
+    border-bottom: 1px solid var(--black);
 }
 
 .error {

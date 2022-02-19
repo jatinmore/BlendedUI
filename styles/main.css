@@ -6,34 +6,12 @@
 @import url('/styles/alert.css');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('/styles/utility.css');
 
 /* container */
 
 .container {
     width: 100%;
-}
-
-
-/* utilities */
-
-.bg-color {
-    background: var(--indigo);
-}
-
-.box-shadow {
-    box-shadow: -1px 6px 5px 0px rgba(0, 0, 0, 0.36);
-}
-
-.bg-light {
-    background: var(--white);
-}
-
-.nav-fixed {
-    position: fixed;
-}
-
-.text-white {
-    color: var(--white);
 }
 
 :root {
@@ -46,7 +24,15 @@
     --alert-success: #5aca75;
     --alert-warning: #CC3300;
     --alert-dark: #3a3b3c;
+    /* 
+
+    --btn-primary:
+    --btn-secondary:
+    --btn-warning:
+    btn-success:
+    btn-dark: */
     /* text utilities*/
+    --black: #282828;
     --grey-text: #808080;
     --blue: #007bff;
     --indigo: #6610f2;
