@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/styles/button.css">
-    <title>Document</title>
+    <title>BlendedUI</title>
 </head>
 
 <body>
-    <div class="nav">
+    <nav class="nav nav-fixed bg-light">
         <div class="nav-header">
             <a class="brand" href="/index.html">BlendedUI</a>
         </div>
@@ -24,7 +24,7 @@
                     <a href="https://twitter.com/JatinMore9" target="_blank" class="nav-link"><i class="fab fa-twitter" id="nav-icons"></i></a>
                 </li>
             </ul>
-        </div>
+    </nav>
 
     </div>
     <div class="flex-container">
@@ -58,12 +58,12 @@
 
 
                     <li class="aside-item">
-                        <a class="aside-link" href="">Image</a>
+                        <a class="aside-link" href="/components/Image-Input/image.html">Image</a>
                     </li>
 
 
                     <li class="aside-item">
-                        <a class="aside-link" href="">Input</a>
+                        <a class="aside-link" href="/components/Image-Input/input.html">Input</a>
                     </li>
 
 
@@ -75,6 +75,11 @@
                     <li class="aside-item">
                         <a class="aside-link" href="/components/List/list.html">List</a>
                     </li>
+
+                    <li class="aside-item">
+                        <a class="aside-link" href="/components/Navigation/navigation.html">Navigation</a>
+                    </li>
+
 
 
                 </ul>
@@ -88,26 +93,23 @@
                 </p>
             </span>
 
-
             <div class="container">
-                <div class="content-main">
-                    <div class="items">
-                        <button class="btn">Default</button>
-                        <button class="btn primary">Primary</button>
-                        <button class="btn secondary">Secondary</button>
-                        <button class="btn warning">Warning</button>
-                        <button class="btn success">Success</button>
-                        <button class="btn dark">Dark</button>
-                    </div>
-
+                <div class="items">
+                    <button class="btn">Default</button>
+                    <button class="btn primary">Primary</button>
+                    <button class="btn secondary">Secondary</button>
+                    <button class="btn warning text-white">Warning</button>
+                    <button class="btn success text-white">Success</button>
+                    <button class="btn dark">Dark</button>
                 </div>
+
                 <span class="description font-size-10">
                     <span class="underline">Button Sizes</span>
                 </span>
                 <div class="items">
                     <button class="btn sm primary">Primary</button>
                     <button class="btn md secondary">Secondary</button>
-                    <button class="btn lg warning">Warning</button>
+                    <button class="btn lg warning text-white">Warning</button>
                 </div>
             </div>
             <div class="code">
@@ -129,10 +131,10 @@
                     <span class="underline">Icon Button</span>
                 </div>
                 <div class="items">
-                    <button class="btn success"><i class="fab fa-whatsapp"></i>Whatsapp</button>
-                    <button class="btn secondary"><i class="fab fa-facebook"></i>Facebook</button>
-                    <button class="btn dark"><i class="fab fa-uber"></i><br>Uber</button>
-                    <button class="btn warning"><i class="fab fa-reddit"></i><br>Reddit</button>
+                    <button class="btn btn-icon success"><i class="fab fa-whatsapp"></i> <br><span class="text-white">Whatsapp</span> </button>
+                    <button class="btn btn-icon secondary"><i class="fab fa-facebook"></i><br><span class="text-white">Facebook</span></button>
+                    <button class="btn btn-icon dark"><i class="fab fa-uber"></i><br><span class="text-white">Uber</span></button>
+                    <button class="btn btn-icon warning"><i class="fab fa-reddit"></i><br><span class="text-white">Reddit</span></button>
                 </div>
             </div>
             <div class="code">
@@ -148,8 +150,8 @@
                     <span class="underline"> Link Button </span>
                 </div>
                 <div class="items">
-                    <a href="https://www.google.com" class="btn dark" role="button">Google</a>
-                    <a href="https://www.youtube.com" class="btn dark" role="button">Youtube</a>
+                    <a href="https://www.google.com" class="btn btn-link dark" role="button">Google</a>
+                    <a href="https://www.youtube.com" class="btn btn-link dark" role="button">Youtube</a>
                 </div>
             </div>
             <br>
@@ -165,9 +167,9 @@
                     <span class="underline">Float Icon Button</span>
                 </div>
                 <div class="items">
-                    <button class="btn float"><i class="fas fa-heart"></i></button>
-                    <button class="btn float"><i class="fas fa-play"></i></button>
-                    <button class="btn float"><i class="fas fa-retweet"></i></button>
+                    <button class="btn float btn-float"><i class="fas fa-heart"></i></button>
+                    <button class="btn float btn-float"><i class="fas fa-play"></i></button>
+                    <button class="btn float btn-float"><i class="fas fa-retweet"></i></button>
                 </div>
 
                 <div class="code">
@@ -178,7 +180,7 @@
 
             </div>
         </div>
-
+    </div>
 </body>
 
 </html>

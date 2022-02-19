@@ -1,7 +1,6 @@
 @import url('/styles/main.css');
 .img-responsive {
     width: 100%;
-    /* max-width: 400px; */
     height: auto;
 }
 

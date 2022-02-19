@@ -1,0 +1,31 @@
+@import url('/styles/main.css');
+.navbar {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid blueviolet;
+    padding: 1rem;
+}
+
+.fixed {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 80%;
+}
+
+.navbar-nav {
+    flex-grow: 1;
+    max-width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.navbar-nav li {
+    display: inline-block;
+}

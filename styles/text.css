@@ -3,14 +3,14 @@
     display: flex;
     padding: 1rem;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     align-items: flex-start;
     margin: 3rem;
 }
 
 .text-align {
     margin: 1rem;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     width: 100%;
     padding: 1rem;
 }
