@@ -1,16 +1,24 @@
 @import url('/styles/main.css');
 .btn-badge {
-    padding: 0.8rem;
+    display: flex;
+    padding: 1rem;
     border: none;
     outline: none;
     margin: 0.2rem;
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
+    background: none;
 }
 
 .count {
     position: relative;
-    top: -0.5rem;
+    top: -0.7rem;
+    /* background: var(--red); */
+    border-radius: 50%;
+    border-color: var(--white);
+    padding: 0.1rem;
+    color: var(--white);
+    color: var(--red);
 }
 
 .fa-dot-circle {
