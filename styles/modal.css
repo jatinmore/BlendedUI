@@ -1,0 +1,17 @@
+@import url('./main.css');
+.popup {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    width: 40rem;
+    align-items: center;
+    background: rebeccapurple;
+    text-align: center;
+    color: white;
+}
+
+.btn-modal {
+    position: relative;
+}

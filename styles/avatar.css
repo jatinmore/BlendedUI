@@ -53,11 +53,3 @@
     width: 120px;
     height: 120px;
 }
-
-.code {
-    position: relative;
-    height: 20rem;
-    margin: 1rem;
-    width: 100%;
-    overflow: hidden;
-}

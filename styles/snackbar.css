@@ -1,0 +1,42 @@
+@import url(./main.css);
+.snackbar {
+    visibility: hidden;
+    position: fixed;
+    background: var(--black);
+    color: var(--white);
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    bottom: 1rem;
+}
+
+.snackbar.show {
+    visibility: visible;
+    /* animation: appear 1s ease 0s 1 normal; */
+    /* animation: fade 1s ease 0s 1 normal; */
+    animation: appear 2s ease-out 0s 1 normal;
+}
+
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    60% {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
