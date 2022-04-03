@@ -23,8 +23,30 @@
     border: 1px solid var(--black);
 }
 
+.stack-list li {
+    margin: 1rem;
+}
+
 .stack-item {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-bottom: 1px solid var(--black);
-    padding: 0.5rem;
+    padding: 2rem;
+    width: 25rem;
+    height: 8rem;
+}
+
+.stack-item:hover {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.stack-item i {
+    padding: 0.2rem;
+}
+
+.icon i {
+    color: var(--black);
+    font-size: 1.5rem;
 }
