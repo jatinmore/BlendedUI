@@ -34,7 +34,7 @@
     border-bottom: 1px solid var(--black);
     padding: 2rem;
     width: 25rem;
-    height: 8rem;
+    height: 6rem;
 }
 
 .stack-item:hover {
@@ -43,7 +43,7 @@
 }
 
 .stack-item i {
-    padding: 0.2rem;
+    padding: 0.3rem;
 }
 
 .icon i {
