@@ -62,12 +62,17 @@
     .close {
         color: var(--secondarycolor);
         width: 2rem;
-        font-size: 1.2rem;
+        height: 2rem;
+        padding: 0.4rem;
+        /* font-size: 1.2rem; */
         border-radius: 50%;
+        /* bottom: 27.3rem;
+        left: 0.8rem; */
         position: relative;
-        bottom: 27.3rem;
-        left: 0.8rem;
-        background: transparent;
+        bottom: 36.5rem;
+        left: 1rem;
+        border: 1px solid var(--black);
+        /* background: transparent; */
         text-shadow: 0 1px 0 #fff;
     }
     
@@ -80,6 +85,8 @@
     
     .card-dismiss {
         display: flex;
+        background-color: var(--purple);
+        color: var(--white);
     }
     
     .card-text-overlay {

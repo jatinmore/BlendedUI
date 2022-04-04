@@ -1,13 +1,13 @@
 @import url('/styles/main.css');
 .btn-badge {
     display: flex;
-    padding: 1rem;
+    padding: 1.3rem;
+    font-size: 1.2rem;
     border: none;
     outline: none;
-    margin: 0.2rem;
+    margin: 0.3rem;
     border-radius: 50%;
     cursor: pointer;
-    background: none;
 }
 
 .count {
