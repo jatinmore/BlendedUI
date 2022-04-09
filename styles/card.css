@@ -3,7 +3,7 @@
         display: flex;
         flex-direction: column;
         padding: 0.8rem;
-        width: 18rem;
+        width: 20rem;
         border-radius: 0.2rem;
         border: 1px outset;
         transition: all 0.3s;
@@ -69,7 +69,7 @@
         /* bottom: 27.3rem;
         left: 0.8rem; */
         position: relative;
-        bottom: 36.5rem;
+        bottom: 39rem;
         left: 1rem;
         border: 1px solid var(--black);
         /* background: transparent; */
@@ -80,7 +80,7 @@
         position: absolute;
         top: 0;
         margin: 0rem;
-        right: 15.4rem;
+        right: 15rem;
     }
     
     .card-dismiss {
@@ -92,6 +92,6 @@
     .card-text-overlay {
         position: relative;
         bottom: 4rem;
-        left: 4rem;
+        left: 2rem;
         color: whitesmoke;
     }
